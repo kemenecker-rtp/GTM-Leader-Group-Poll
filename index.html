@@ -194,16 +194,17 @@ import { getDatabase, ref, onValue, runTransaction, push, set, remove }
    See the chat for the 5-minute Firebase setup + database rules.
    ============================================================ */
 const firebaseConfig = {
-  apiKey:            "PASTE_API_KEY",
-  authDomain:        "PASTE_PROJECT.firebaseapp.com",
-  databaseURL:       "https://PASTE_PROJECT-default-rtdb.firebaseio.com",
-  projectId:         "PASTE_PROJECT",
-  storageBucket:     "PASTE_PROJECT.appspot.com",
-  messagingSenderId: "PASTE_SENDER_ID",
-  appId:             "PASTE_APP_ID"
+  apiKey: "AIzaSyARXMM-baogrFS5cncn2-VvgP2acOk-MP4",
+  authDomain: "rtp-topic-poll-for-gtm.firebaseapp.com",
+  databaseURL: "https://rtp-topic-poll-for-gtm-default-rtdb.firebaseio.com",
+  projectId: "rtp-topic-poll-for-gtm",
+  storageBucket: "rtp-topic-poll-for-gtm.firebasestorage.app",
+  messagingSenderId: "649276311784",
+  appId: "1:649276311784:web:62c9e7755dfefcbbf0615d",
+  measurementId: "G-VZNGD6BX2G"
 };
 
-const ADMIN_CODE = "rubicon-admin";   // <-- change this
+const ADMIN_CODE = "53673581";   // <-- change this
 const DB_ROOT    = "gtmPoll";         // database node; change to run several polls
 
 const TOPICS = [
